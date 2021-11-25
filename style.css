@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+/*navbar */
+nav{
+	background-color:#C0C0C0;
+	height: 120px;
+	position: sticky;
+	top: 2px;
+
+}
+
+/*cart*/
+.fa-shopping-cart{
+	position: absolute;
+	top: 17px;
+	right: 33px;
+	color: grey;
+	width: 41px;
+	height: 32px;
+	background-color: gainsboro;
+	border-radius: 22px;
+	align-items: center;
+	font-size:28px;
+
+}
+
+/* logo */
+
+.logo{
+	position: absolute;
+	top: 12px;
+	bottom: 0;
+	right: 590px;
+	font-size: 32px;
+}
+
+/*navbar option*/
+
+#menu{
+position: fixed;
+left: 50px;
+top: 10px;
+font-size: 40px;
+cursor: pointer;
+z-index: 2;
+color: grey;
+
+
+}
+#sidenav{
+	padding-top: 100px 0px;
+	position: fixed;
+	width: 0px;
+	height: 100vh;
+	background: white;
+	backdrop-filter:blur(10px);
+	box-shadow:inset 10px 10px 10px grey;
+	top: 0;
+	left: 0;
+	background-color: black;
+}
+#sidenav ul li{
+	list-style: none;
+	padding-top: 40px;
+	padding-left: 70px;
+}
+#sidenav ul li a{
+text-decoration: none;
+background-color: transparent;
+color: white;
+font-size: 16px;
+/*margin: 1px 3px;*/
+display: block;
+/*padding: 2px;*/
+z-index: 0;
+}
+
+#sidenav ul li a:hover{
+	background-color: rgba(5, 15, 4, 0.4);
+	transition: 0.4s;
+}
+
+
+/*input box*/
+
+.box{
+	width: 100%;
+	height: 50px;
+	background-color:white;
+	border-radius: 30px;
+	padding-top: 80px;
+	padding-left: 300px;
+	
+}
+.box > i {
+	font-size: 30px;
+	color: #777;
+	/*width: 37px;
+	height: 31px;*/
+}
+
+.box > input{
+	flex: 1;
+	height: 40px;
+	width:  700px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left:10px;
+	/*background-color: red;*/
+	border-radius: 30px;
+}
+
+
+
+
+
+/*carousel top*/
+.item img{
+	margin-top: 90px;
+	border-radius: 80px;
+	width: 100%;
+	height:300px;
+
+}
+
+.third{
+	margin-bottom: 200px;
+	width: 400px;
+	height: 300px;
+	background-color: grey;
+	/*padding-left:100px ;*/
+	margin-left: 100px;
+}
+
+
+/* class list */
+.school {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.t11{
+	width: 100px;
+	height: 100px;
+	border-radius: 47px;
+	margin-top: 19px;
+}
+.t1 {
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	border-radius: 12px;
+	
+	
+}
+.t22{
+	width: 100px;
+	height: 100px;
+	border-radius: 77px;
+	margin-top: 15px;
+}
+.t2{
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	border-radius: 12px;
+
+	
+}
+.t33{
+	width: 100px;
+	height: 100px;
+	border-radius: 47px;
+	margin-top: 19px;
+	
+}
+.t3{
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	border-radius: 12px;
+	
+}
+.t44{
+	width: 100px;
+	height: 100px;
+	border-radius: 47px;
+	margin-top: 19px;
+}
+
+.t4{
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	border-radius: 12px;
+	
+}
+.t55{
+	width: 100px;
+	height: 100px;
+	border-radius: 47px;
+	margin-top: 19px;
+}
+.t5{
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	border-radius: 12px;
+}
+.t6 {
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	padding-top: 35px;
+	border-radius: 12px;
+	
+}
+.t7 {
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	padding-top: 42px;
+	border-radius: 12px;
+	
+}
+.t8 {
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	padding-top: 42px;
+	border-radius: 12px;
+	
+}
+.t9 {
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	padding-top: 37px;
+	border-radius: 12px;
+	
+}
+.t10 {
+	width: 120px;
+	height: 120px;
+	background-color: rgb(92, 92, 226);
+	text-align: center;
+	padding-top: 42px;
+	border-radius: 12px;
+	
+}
+
+/* third carousel */
+
+/*content*/
+.middle{
+text-align: center;
+/*color: red;*/
+font-size: 34px;
+}
+
+/*price*/
+.middle1{
+	color: blue;
+}
+
+ /*offer */
+ .offer{
+color: green;
+ }
+
+/*Original price*/
+.middle2{
+	color:black ;
+}
+
+/*footer*/
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #C0C0C0;
+	height: 69px;
+	width: 100%;
+	font-size: 50px;
+}
+
+
+
+
